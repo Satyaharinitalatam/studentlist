@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 20px;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    width: 60vw;
+    margin-top: 80px;
+
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.but {
+    background-color: rgb(114, 153, 226);
+    height: 40px;
+    width: 150px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
